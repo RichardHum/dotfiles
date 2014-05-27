@@ -1,1 +1,5 @@
-/root/.gitconfig
+[user]
+	email = alfonzo1955@gmail.com
+	name = alfonzo1955
+[push]
+	default = simple

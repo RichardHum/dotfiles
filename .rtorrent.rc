@@ -1,1 +1,4 @@
-/root/.rtorrent.rc
+directory=/root/Downloads/torrents/
+session=/root/.session/
+dht=on
+schedule = low_diskspace,5,60,close_low_diskspace=0M

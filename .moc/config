@@ -1,1 +1,5 @@
-/root/.moc/config
+Theme	    =   my_theme
+Keymap	    =   /root/.moc/keymap
+AutoNext    =	yes
+PlaylistFullPaths = no
+MusicDir    =	/root/Music

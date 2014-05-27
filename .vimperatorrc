@@ -1,1 +1,9 @@
-/root/.vimperatorrc
+"3.8.2 (created: 2014/02/13 23:52:43)
+
+set noautocomplete
+set focuscontent
+set runtimepath=/root/.vimperator
+set gui=nonavigation
+source! /root/.vimperatorrc.local
+
+" vim: set ft=vimperator:

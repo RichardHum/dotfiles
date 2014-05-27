@@ -1,1 +1,38 @@
-/root/.Xdefaults
+URxvt.perl-lib:	    /root/.urxvt/perl/
+URxvt.perl-ext-common:	default,clipboard
+URxvt.transparent:   true
+URxvt.shading:       15
+
+URxvt*saveLines:    12000
+URxvt*foreground:   White
+URxvt*scrollBar:    false
+
+URxvt*background:   DarkGrey
+urxvt.font:	    xft:inconsolata:pixelsize=16
+urxvt.boldFont:	    xft:inconsolata:pixelsize=16
+
+URxvt*iso14755:    False
+
+urxvt*termName:	    rxvt-256color
+
+URxvt.keysym.C-C:   perl:clipboard:copy
+URxvt.keysym.C-V:   perl:clipboard:paste
+URxvt.keysym.A-V:   perl:clipboard:paste_escaped
+
+*color0:	    black
+*color1:	    red3
+*color2:	    green3
+*color3:	    yellow3
+*color4:	    #4169E1
+*color5:	    magenta3
+*color6:	    cyan3
+*color7:	    gray90
+
+*color8:	    gray50
+*color9:	    red
+*color10:	    green
+*color11:	    yellow
+*color12:	    #5c5cff
+*color13:	    magenta
+*color14:	    cyan
+*color15:	    white
