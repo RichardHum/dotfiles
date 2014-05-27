@@ -12,4 +12,6 @@ set softtabstop=4
 syntax on
 set nohlsearch
 "set foldmethod=indent
-
+set mouse=a
+map <ScrollWheelUp> <C-Y>
+map <ScrollWheelDown> <C-E>
