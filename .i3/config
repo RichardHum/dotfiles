@@ -64,6 +64,7 @@ bindsym $mod+F7			exec "~/.bin/songpopup.sh"
 #bindsym $mod+Shift+Return exec i3-sensible-terminal
 #bindsym $mod+Shift+Return exec "st"
 bindsym $mod+Shift+Return exec "urxvt"
+bindsym $mod+Return exec "curdirterm"
 
 # kill focused window
 bindsym $mod+Shift+c kill
