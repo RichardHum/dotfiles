@@ -96,6 +96,7 @@ alias r='reset'
 alias cp='cp -i'
 alias mv='mv -i'
 #alias mplayer='mplayer -af scaletempo'
+# MPV is much better than mplayer
 alias mplayer='mpv -af scaletempo'
 alias wired='netcfg -a && (netcfg wired || netcfg wired)&&exit'
 
