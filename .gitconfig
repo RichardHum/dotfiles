@@ -3,3 +3,6 @@
 	name = alfonzo1955
 [push]
 	default = simple
+[alias]
+	ci = commit
+	st = status
