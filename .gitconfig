@@ -5,6 +5,7 @@
 	default = simple
 [alias]
 	ci = commit
+	cm = commit
 	st = status
 	co = checkout
 	pu = push
