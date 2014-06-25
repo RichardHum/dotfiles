@@ -9,6 +9,7 @@ set autoindent
 filetype plugin on
 set shiftwidth=4
 set softtabstop=4
+set tabstop=4
 syntax on
 set nohlsearch
 "set foldmethod=indent
