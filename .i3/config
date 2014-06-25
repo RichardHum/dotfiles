@@ -34,8 +34,8 @@ for_window [title=".*Microsoft Excel.*"] border 1pixel
 for_window [title=".*Microsoft Word.*"] border 1pixel
 for_window [title=".* - Chromium"] border 1pixel
 for_window [class=".*URxvt.*"] border 1pixel
-for_window [class="MPlayer"] border none; floating enable
-for_window [class="mpv.*"] border none; floating enable
+#for_window [class="MPlayer"] border none; floating enable
+for_window [instance="gl" class="mpv"] border none; focus child; floating enable
 #for_window [class="mplayer2"] border none; floating enable
 #for_window [class="xterm"] border 1pixel
 #for_window [class="xterm"] border 1pixel; floating enable; move left 250px; move up 170px; resize grow width 600px or 600pt; resize grow height 400px or 400pt
