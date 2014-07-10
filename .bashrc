@@ -95,6 +95,8 @@ alias c='clear'
 alias r='reset'
 alias cp='cp -i'
 alias mv='mv -i'
+alias vi='vim'
+
 #alias mplayer='mplayer -af scaletempo'
 # MPV is much better than mplayer
 alias mplayer='mpv -af scaletempo'

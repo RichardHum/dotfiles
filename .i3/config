@@ -34,14 +34,13 @@ for_window [title=".*Microsoft Excel.*"] border 1pixel
 for_window [title=".*Microsoft Word.*"] border 1pixel
 for_window [title=".* - Chromium"] border 1pixel
 for_window [class=".*URxvt.*"] border 1pixel
-#for_window [class="MPlayer"] border none; floating enable
-for_window [instance="gl" class="mpv"] border none; focus child; floating enable
-#for_window [class="mplayer2"] border none; floating enable
-#for_window [class="xterm"] border 1pixel
-#for_window [class="xterm"] border 1pixel; floating enable; move left 250px; move up 170px; resize grow width 600px or 600pt; resize grow height 400px or 400pt
+for_window [instance="gl" class="mpv"] border none, floating enable
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
+
+# Change wallpaper
+bindsym $mod+Shift+n exec "~/.bin/newwallpaper.sh"
 
 # lock screen
 bindsym Mod4+l exec "/root/.bin/xlock"
