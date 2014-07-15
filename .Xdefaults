@@ -2,6 +2,7 @@ URxvt.perl-lib:		/root/.urxvt/perl/
 URxvt.perl-ext-common:	default,clipboard
 URxvt.transparent:	true
 URxvt.shading:		15
+URxvt.urgentOnBell:	true
 
 URxvt*saveLines:	12000
 URxvt*foreground:	White
