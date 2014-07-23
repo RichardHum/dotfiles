@@ -34,7 +34,14 @@ for_window [title=".*Microsoft Excel.*"] border 1pixel
 for_window [title=".*Microsoft Word.*"] border 1pixel
 for_window [title=".* - Chromium"] border 1pixel
 for_window [class=".*URxvt.*"] border 1pixel
+for_window [class="qemu-system-.*"] border 1pixel, floating enable
 for_window [instance="gl" class="mpv"] border none, floating enable
+
+# Put matlab windows in wksp 9
+assign [class="^com-mathworks-util-PostVMInit$"] 9
+
+# toggle borders
+bindsym $mod+u border toggle
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
