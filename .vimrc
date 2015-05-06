@@ -10,7 +10,14 @@ filetype plugin on
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
+set expandtab
 syntax on
 set nohlsearch
 "set foldmethod=indent
 set ls=2
+
+nmap \o :set paste!<CR>
+nmap \l :setlocal number!<CR>
+
+nnoremap <F5> "=strftime("%H:%M")<CR>P
+inoremap <F5> <C-R>=strftime("%H:%M")<CR>

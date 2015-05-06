@@ -89,7 +89,7 @@ alias l='ls -CF'
 #alias rm='srm -fllvI'
 alias rm='rm -I'
 alias srm='srm -v'
-alias rsync='rsync --progress'
+alias rsync='rsync --progress -P'
 alias clean='/root/clean'
 alias c='clear'
 alias r='reset'
@@ -101,6 +101,10 @@ alias vi='vim'
 # MPV is much better than mplayer
 alias mplayer='mpv -af scaletempo'
 alias wired='netcfg -a && (netcfg wired || netcfg wired)&&exit'
+
+alias livestreamer='livestreamer --yes-run-as-root --player=mpv'
+
+#alias mount='mount -o sync'
 
 COLORFGBG="default;default"
 

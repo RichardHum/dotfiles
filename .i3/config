@@ -33,6 +33,7 @@ for_window [title=".*Mozilla Firefox"] border 1pixel
 for_window [title=".*Microsoft Excel.*"] border 1pixel
 for_window [title=".*Microsoft Word.*"] border 1pixel
 for_window [title=".* - Chromium"] border 1pixel
+for_window [title=".* - Google Chrome"] border 1pixel
 for_window [class=".*URxvt.*"] border 1pixel
 for_window [class="qemu-system-.*"] border 1pixel, floating enable
 for_window [instance="gl" class="mpv"] border none, floating enable
@@ -135,7 +136,8 @@ bindsym $mod+d focus child
 # default workspaces
 workspace 1 output VGA1
 workspace 2 output LVDS1
-workspace 3 output VGA1
+workspace 10 output VGA1
+#workspace 3 output VGA1
 
 # switch to workspace
 bindsym $mod+1 workspace 1
@@ -219,4 +221,4 @@ bar {
 }
 
 # Startup script
-exec "st -e /root/startup"
+#exec "st -e /root/startup"
