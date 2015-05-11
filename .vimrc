@@ -16,6 +16,7 @@ set nohlsearch
 "set foldmethod=indent
 set ls=2
 set ruler
+set backspace=2
 
 nmap \o :set paste!<CR>
 nmap \l :setlocal number!<CR>
