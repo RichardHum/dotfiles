@@ -130,4 +130,4 @@ stty ixany
 stty stop undef
 stty start undef
 
-eval $(dircolors -b .dir_colors)
+eval $(dircolors -b ~/.dir_colors)
