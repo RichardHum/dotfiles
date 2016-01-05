@@ -1,3 +1,6 @@
 # Tag name          ;  color
+Untagged            ; #c0c0c0
 
 # Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
+   452414300; Digital                  ; Narrow FM           ;      10000; Untagged
+   452812672; digital2                 ; Narrow FM           ;      10000; Untagged

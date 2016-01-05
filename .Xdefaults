@@ -20,6 +20,9 @@ URxvt.keysym.C-C:	perl:clipboard:copy
 URxvt.keysym.C-V:	perl:clipboard:paste
 URxvt.keysym.A-V:	perl:clipboard:paste_escaped
 
+
+Xcusor.size: 16
+
 *color0:	black
 *color1:	red3
 *color2:	green3
