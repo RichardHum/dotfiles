@@ -101,6 +101,7 @@ alias vim='vim -p'
 #alias mplayer='mplayer -af scaletempo'
 # MPV is much better than mplayer
 alias mplayer='mpv -af scaletempo'
+alias mplayer-51='mpv -af scaletempo --ao=alsa:device=surround51'
 alias wired='netcfg -a && (netcfg wired || netcfg wired)&&exit'
 
 alias livestreamer='livestreamer --yes-run-as-root --player=mpv'

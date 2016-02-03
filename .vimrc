@@ -23,3 +23,9 @@ nmap \l :setlocal number!<CR>
 
 nnoremap <F5> "=strftime("%H:%M")<CR>P
 inoremap <F5> <C-R>=strftime("%H:%M")<CR>
+
+" For local replace
+nnoremap gr gd[{V%::s/<C-R>///gc<left><left><left>
+
+" For global replace
+nnoremap gR gD:%s/<C-R>///gc<left><left><left>
