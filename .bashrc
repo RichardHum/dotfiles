@@ -80,6 +80,7 @@ esac
 #fi
 
 # some more ls aliases
+alias ls='ls -N'
 alias ll='ls -alFh'
 alias la='ls -A'
 alias lc='ls --color=never'
