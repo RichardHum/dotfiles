@@ -70,7 +70,7 @@ esac
 # enable color support of ls and also add handy aliases
 #if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ls='ls --color=auto -h'
+    #alias ls='ls --color=auto -h'
     #alias dir='dir --color=auto'
     #alias vdir='vdir --color=auto'
 
@@ -80,7 +80,7 @@ esac
 #fi
 
 # some more ls aliases
-alias ls='ls -N'
+alias ls='ls -N --color=auto -h'
 alias ll='ls -alFh'
 alias la='ls -A'
 alias lc='ls --color=never'

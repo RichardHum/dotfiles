@@ -10,7 +10,7 @@ URxvt*scrollBar:	false
 
 URxvt*background:	DarkGrey
 urxvt.font:			xft:inconsolata:pixelsize=16
-urxvt.boldFont:		xft:inconsolata:pixelsize=16
+urxvt.boldFont:		xft:inconsolata:pixelsize=16:bold
 
 URxvt*iso14755:		False
 
